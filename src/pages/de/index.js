@@ -71,7 +71,7 @@ export default function Index() {
           </ResponsiveGrid>
         </Wrapper>
       </Section>
-      <Section title="Ausgewählte Projekte">
+      <Section id="projekte" title="Ausgewählte Projekte">
         <Projects
           showMoreButton={
             <Button color="accent">Mehr Projekte anzeigen</Button>

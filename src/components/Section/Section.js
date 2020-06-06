@@ -4,9 +4,9 @@ import Text from 'components/Text';
 import SectionTitle from './SectionTitle';
 import styles from './Section.module.scss';
 
-export default function Section({children, description, title}) {
+export default function Section({children, description, id, title}) {
   return (
-    <div className={styles.root}>
+    <div className={styles.root} id={id}>
       <Wrapper>
         <SectionTitle>{title}</SectionTitle>
         {description && (

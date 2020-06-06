@@ -9,6 +9,13 @@ export default function LocalizedHeader(props) {
       menu={
         <>
           <HeaderMenuItem
+            component={menuItemProps => (
+              <Link to="/de/#projekte" {...menuItemProps} />
+            )}
+          >
+            Projekte
+          </HeaderMenuItem>
+          <HeaderMenuItem
             component={menuItemProps => <Link to="/blog" {...menuItemProps} />}
           >
             Blog
